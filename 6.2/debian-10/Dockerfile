@@ -21,6 +21,6 @@ ENV BITNAMI_APP_NAME="redis-cluster" \
 
 EXPOSE 6379
 
-USER 1001
+USER 0
 ENTRYPOINT [ "/opt/bitnami/scripts/redis-cluster/entrypoint.sh" ]
 CMD [ "/opt/bitnami/scripts/redis-cluster/run.sh" ]
